@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "react-native": ["react-native-web"]
     },
     "plugins": [{ "name": "next" }]
   },
