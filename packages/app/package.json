@@ -1,8 +1,11 @@
 {
   "version": "0.0.0",
-  "name": "app",
+  "name": "@my/app",
   "main": "index.ts",
   "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules"
+  },
   "sideEffects": [
     "*.css"
   ],
