@@ -5,3 +5,5 @@ packages:
   - packages/auth
   - packages/db
   - packages/config/*
+  - packages/app
+  - packages/ui
